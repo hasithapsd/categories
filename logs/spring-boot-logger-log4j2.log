@@ -1,0 +1,63 @@
+2021-05-03 17:41:58,159 INFO o.s.b.StartupInfoLogger [main] Starting CategoriesApplication using Java 14.0.2 on hasithap-Inspiron-5502 with PID 15864 (/home/hasithap/Documents/CODE_REPO/Randoms/categories/target/classes started by hasithap in /home/hasithap/Documents/CODE_REPO/Randoms/categories)
+2021-05-03 17:41:58,183 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-03 17:41:58,671 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-03 17:41:58,699 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 26 ms. Found 3 MongoDB repository interfaces.
+2021-05-03 17:41:58,914 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-03 17:41:58,923 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-03 17:41:58,924 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-03 17:41:58,924 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-03 17:41:58,957 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-03 17:41:58,958 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 745 ms
+2021-05-03 17:41:59,091 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] note: noprealloc may hurt performance in many applications
+2021-05-03 17:41:59,094 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.094+0530 I CONTROL  [initandlisten] MongoDB starting : pid=15935 port=27017 dbpath=/tmp/embedmongo-db-53eeb7ca-c0d1-4840-8117-789c4a4718a1 64-bit host=hasithap-Inspiron-5502
+2021-05-03 17:41:59,094 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.094+0530 I CONTROL  [initandlisten] db version v3.5.5
+2021-05-03 17:41:59,095 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.094+0530 I CONTROL  [initandlisten] git version: 98515c812b6fa893613f063dae568ff8319cbfbd
+2021-05-03 17:41:59,095 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.094+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+2021-05-03 17:41:59,096 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.094+0530 I CONTROL  [initandlisten] modules: none
+2021-05-03 17:41:59,096 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.094+0530 I CONTROL  [initandlisten] build environment:
+2021-05-03 17:41:59,097 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.094+0530 I CONTROL  [initandlisten]     distarch: x86_64
+2021-05-03 17:41:59,097 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.094+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-05-03 17:41:59,097 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.094+0530 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 27017 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-53eeb7ca-c0d1-4840-8117-789c4a4718a1", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+2021-05-03 17:41:59,099 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.099+0530 I STORAGE  [initandlisten] 
+2021-05-03 17:41:59,099 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.099+0530 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2021-05-03 17:41:59,100 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.099+0530 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2021-05-03 17:41:59,100 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.099+0530 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7356M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),,log=(enabled=false),
+2021-05-03 17:41:59,161 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.161+0530 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+2021-05-03 17:41:59,162 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.161+0530 I CONTROL  [initandlisten] 
+2021-05-03 17:41:59,163 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.161+0530 I CONTROL  [initandlisten] ** NOTE: This is a development version (3.5.5) of MongoDB.
+2021-05-03 17:41:59,163 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.161+0530 I CONTROL  [initandlisten] **       Not recommended for production.
+2021-05-03 17:41:59,164 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.161+0530 I CONTROL  [initandlisten] 
+2021-05-03 17:41:59,164 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.161+0530 I CONTROL  [initandlisten] 
+2021-05-03 17:41:59,165 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.161+0530 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. rlimits set to 62716 processes, 1048576 files. Number of processes should be at least 524288 : 0.5 times number of files.
+2021-05-03 17:41:59,183 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.182+0530 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/tmp/embedmongo-db-53eeb7ca-c0d1-4840-8117-789c4a4718a1/diagnostic.data'
+2021-05-03 17:41:59,214 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.214+0530 I INDEX    [initandlisten] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: "incompatible_with_version_32", ns: "admin.system.version" }
+2021-05-03 17:41:59,215 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.214+0530 I INDEX    [initandlisten] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2021-05-03 17:41:59,216 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.215+0530 I INDEX    [initandlisten] build index done.  scanned 0 total records. 0 secs
+2021-05-03 17:41:59,216 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.215+0530 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.4
+2021-05-03 17:41:59,217 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.215+0530 I NETWORK  [thread1] waiting for connections on port 27017
+2021-05-03 17:41:59,218 INFO d.f.e.p.r.Executable [main] start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@6544899b
+2021-05-03 17:41:59,265 INFO c.m.d.l.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-03 17:41:59,279 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.279+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:46052 #1 (1 connection now open)
+2021-05-03 17:41:59,280 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.279+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:46050 #2 (2 connections now open)
+2021-05-03 17:41:59,283 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.283+0530 I NETWORK  [conn1] received client metadata from 127.0.0.1:46052 conn1: { driver: { name: "mongo-java-driver|sync|spring-boot", version: "4.1.2" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.8.0-50-generic" }, platform: "Java/Private Build/14.0.2+12-Ubuntu-120.04" }
+2021-05-03 17:41:59,284 INFO d.f.e.p.i.Slf4jLevel$3 [Thread-1] 2021-05-03T17:41:59.283+0530 I NETWORK  [conn2] received client metadata from 127.0.0.1:46050 conn2: { driver: { name: "mongo-java-driver|sync|spring-boot", version: "4.1.2" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "5.8.0-50-generic" }, platform: "Java/Private Build/14.0.2+12-Ubuntu-120.04" }
+2021-05-03 17:41:59,289 INFO c.m.d.l.SLF4JLogger [cluster-rtt-ClusterId{value='608fe88f2136d64a7860e7f5', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2021-05-03 17:41:59,289 INFO c.m.d.l.SLF4JLogger [cluster-ClusterId{value='608fe88f2136d64a7860e7f5', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2021-05-03 17:41:59,290 INFO c.m.d.l.SLF4JLogger [cluster-ClusterId{value='608fe88f2136d64a7860e7f5', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=8319384}
+2021-05-03 17:41:59,662 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 17:41:59,722 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-03 17:41:59,735 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-03 17:41:59,741 INFO s.d.s.w.p.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-05-03 17:41:59,748 INFO s.d.s.w.p.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-05-03 17:41:59,752 INFO s.d.s.w.s.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-05-03 17:41:59,814 INFO s.d.s.w.r.o.CachingOperationNameGenerator [main] Generating unique operation named: createTutorialUsingPOST_1
+2021-05-03 17:41:59,823 INFO s.d.s.w.r.o.CachingOperationNameGenerator [main] Generating unique operation named: getTutorialByIdUsingGET_1
+2021-05-03 17:41:59,831 INFO o.s.b.StartupInfoLogger [main] Started CategoriesApplication in 2.016 seconds (JVM running for 2.557)
+2021-05-03 17:42:39,077 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-03 17:42:39,079 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-05-03 17:42:39,081 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-05-03 17:42:39,089 INFO c.m.c.f.CorrelationFilter [http-nio-8080-exec-1] No Correlation ID found in the HTTP request. Generating a new ID.
+2021-05-03 17:42:39,266 INFO c.m.c.f.CorrelationFilter [http-nio-8080-exec-2] No Correlation ID found in the HTTP request. Generating a new ID.
+2021-05-03 17:42:39,300 INFO c.m.c.f.CorrelationFilter [http-nio-8080-exec-3] No Correlation ID found in the HTTP request. Generating a new ID.
+2021-05-03 17:42:39,310 INFO c.m.c.f.CorrelationFilter [http-nio-8080-exec-4] No Correlation ID found in the HTTP request. Generating a new ID.
+2021-05-03 17:42:39,430 INFO c.m.c.f.CorrelationFilter [http-nio-8080-exec-5] No Correlation ID found in the HTTP request. Generating a new ID.
